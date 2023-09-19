@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b051f166-4a5e-4f85-b526-812e9dfaf06d" name="Changes" comment="Phase 1 Initiated" />
+    <list default="true" id="b051f166-4a5e-4f85-b526-812e9dfaf06d" name="Changes" comment="Phase 2 Complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +99,7 @@
       <workItem from="1694515576698" duration="9454000" />
       <workItem from="1694535805327" duration="635000" />
       <workItem from="1694942933709" duration="7456000" />
-      <workItem from="1694959451566" duration="13337000" />
+      <workItem from="1694959451566" duration="13711000" />
     </task>
     <task id="LOCAL-00001" summary="Phase 1 Initiated">
       <option name="closed" value="true" />
@@ -125,7 +125,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695122175662</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Phase 1 Initiated">
+      <option name="closed" value="true" />
+      <created>1695123622543</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695123622543</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Phase 2 Complete">
+      <option name="closed" value="true" />
+      <created>1695123793982</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695123793982</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +160,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Phase 1 Initiated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Phase 1 Initiated" />
+    <MESSAGE value="Phase 2 Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Phase 2 Complete" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/streamlit_portfolio$001_homepage.coverage" NAME="001_homepage Coverage Results" MODIFIED="1695028195230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Phase 1" />
