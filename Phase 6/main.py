@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-import homepage, experience, resume, contact
+import homepage, experience, resume, contact, projects
 
 st.set_page_config(
     page_title="My WebPage", 
@@ -46,17 +46,17 @@ class MultiApp:
         with st.sidebar:
             selected = option_menu(
                 menu_title="Sazzad H. Farhaan",
-                options=["Home", "Experience", "Resume", "Contact"],
+                options=["Home", "Projects", "Experience", "Resume", "Contact"],
                 # "Awards", "Education", "Certificates", "Technical Skills"
                 # "Competitions", "Volunteering", "Blog"]
-                icons=["person-bounding-box", "hourglass-split",  # From https://icons.getbootstrap.com/
+                icons=["person-bounding-box", "code-square", "hourglass-split",  # From https://icons.getbootstrap.com/
                        "file-earmark-person-fill", "envelope-at"],
                 menu_icon="Mortorboard",
                 default_index=0,
                 styles={
                     "container": {"padding": "5!important", "background-color": 'black'},
                     "icon": {"color": "white", "font-size": "23px"},
-                    "nav-link": {"color": "white", "font-size": "20px", "text-align": "left", "margin": "0px",
+                    "nav-link": {"color": "white", "font-size": "18px", "text-align": "left", "margin": "0px",
                                  "--hover-color": "blue"},
                     "nav-link-selected": {"background-color": "#02ab21"}, }
 
@@ -64,6 +64,8 @@ class MultiApp:
 
         if selected == "Home":
             homepage.app()
+        if selected == "Projects":
+            projects.app()
         if selected == "Experience":
             experience.app()
         if selected == "Resume":

@@ -24,7 +24,7 @@ def app():
         return r.json()
 
 
-    img_project1 = Image.open("images/stenosis_img.jpg")
+    # img_project1 = Image.open("images/stenosis_img.jpg")
     load_greeting = load_lottieurl("https://lottie.host/03174646-5d44-473e-a082-e8a8d9038222/mXbnb7EyzL.json")
 
     st.subheader("Hi, I am Farhaan :wave:")
@@ -57,34 +57,34 @@ def app():
             )
             st.write("[GitHub >](https://github.com/farhaan-sh)")
             # st.write("[Facebook >](https://www.facebook.com/fb.shfarhaan/)")
-
-    with st.container():
-        st.write("---")
-        st.header("My Projects")
-        st.write("##")
-        image_column, text_column = st.columns((1, 2))
-        with image_column:
-            st.image(img_project1)
-        with text_column:
-            st.subheader("Stenosis Detection from Angiographic Images")
-            st.write(
-                """
-                **Project Description:**
-    
-                - **Early CAD Detection:** Our project focuses on detecting Coronary Artery Disease (CAD) at its early stages, which is crucial for timely treatment and improved patient outcomes.
-    
-                - **Innovative Approach:** We've pioneered an innovative approach that leverages advanced technology and precision to identify specific markers or indicators of CAD within the body.
-    
-                - **New Predictive Method:** Our goal is to provide a novel way of predicting CAD in its earliest phases, enabling doctors to intervene and provide necessary care before the disease progresses to a more critical stage.
-    
-                - **Reshaping Diagnosis:** This project has the potential to revolutionize how CAD is diagnosed and managed, potentially reducing the impact of the disease on patients' lives.
-                """
-            )
-            st.write(
-                """
-                **Keywords:** `Coronary Artery Disease (CAD)`, `Stenosis detection`, `Bayesian Probability analysis`, `Early diagnosis`, `Computer vision`
-                """
-            )
+    #
+    # with st.container():
+    #     st.write("---")
+    #     st.header("My Projects")
+    #     st.write("##")
+    #     image_column, text_column = st.columns((1, 2))
+    #     with image_column:
+    #         st.image(img_project1)
+    #     with text_column:
+    #         st.subheader("Stenosis Detection from Angiographic Images")
+    #         st.write(
+    #             """
+    #             **Project Description:**
+    #
+    #             - **Early CAD Detection:** Our project focuses on detecting Coronary Artery Disease (CAD) at its early stages, which is crucial for timely treatment and improved patient outcomes.
+    #
+    #             - **Innovative Approach:** We've pioneered an innovative approach that leverages advanced technology and precision to identify specific markers or indicators of CAD within the body.
+    #
+    #             - **New Predictive Method:** Our goal is to provide a novel way of predicting CAD in its earliest phases, enabling doctors to intervene and provide necessary care before the disease progresses to a more critical stage.
+    #
+    #             - **Reshaping Diagnosis:** This project has the potential to revolutionize how CAD is diagnosed and managed, potentially reducing the impact of the disease on patients' lives.
+    #             """
+    #         )
+    #         st.write(
+    #             """
+    #             **Keywords:** `Coronary Artery Disease (CAD)`, `Stenosis detection`, `Bayesian Probability analysis`, `Early diagnosis`, `Computer vision`
+    #             """
+    #         )
 
             # # ---- CONTACT ----
             # with st.container():
