@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b051f166-4a5e-4f85-b526-812e9dfaf06d" name="Changes" comment="Phase 6 Initiated">
+    <list default="true" id="b051f166-4a5e-4f85-b526-812e9dfaf06d" name="Changes" comment="Phase 6 Updated and Fixed v1.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase 6/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/Phase 6/contact.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Phase 6/homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Phase 6/homepage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Phase 6/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Phase 6/main.py" afterDir="false" />
     </list>
@@ -126,7 +127,7 @@
       <workItem from="1694515576698" duration="9454000" />
       <workItem from="1694535805327" duration="635000" />
       <workItem from="1694942933709" duration="7456000" />
-      <workItem from="1694959451566" duration="16522000" />
+      <workItem from="1694959451566" duration="17043000" />
     </task>
     <task id="LOCAL-00001" summary="Phase 1 Initiated">
       <option name="closed" value="true" />
@@ -208,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695128998718</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Phase 6 Updated and Fixed v1.1">
+      <option name="closed" value="true" />
+      <created>1695130072455</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695130072455</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +242,8 @@
     <MESSAGE value="Phase 5 Complete - Navigation Bar initiated" />
     <MESSAGE value="Added Requirement.txt" />
     <MESSAGE value="Phase 6 Initiated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Phase 6 Initiated" />
+    <MESSAGE value="Phase 6 Updated and Fixed v1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Phase 6 Updated and Fixed v1.1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/streamlit_portfolio$001_homepage.coverage" NAME="001_homepage Coverage Results" MODIFIED="1695028195230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Phase 1" />
