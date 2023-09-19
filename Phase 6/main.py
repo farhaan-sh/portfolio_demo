@@ -1,7 +1,5 @@
 import streamlit as st
-
 from streamlit_option_menu import option_menu
-
 import homepage, experience, resume, contact
 
 st.set_page_config(
@@ -46,7 +44,7 @@ class MultiApp:
     def run():
         # app = st.sidebar(
         with st.sidebar:
-            app = option_menu(
+            selected = option_menu(
                 menu_title="Sazzad H. Farhaan",
                 options=["Home", "Experience", "Resume", "Contact"],
                 # "Awards", "Education", "Certificates", "Technical Skills"
@@ -64,13 +62,13 @@ class MultiApp:
 
             )
 
-        if selected == "About Me":
-            st.title(f"You have selected {selected}")
+        if selected == "Home":
+            homepage.app()
         if selected == "Experience":
-            st.title(f"You have selected {selected}")
+            experience.app()
         if selected == "Resume":
-            st.title(f"You have selected {selected}")
+            resume.app()
         if selected == "Contact":
-            st.title(f"You have selected {selected}")
+            contact.app()
 
     run()

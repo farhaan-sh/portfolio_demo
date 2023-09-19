@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b051f166-4a5e-4f85-b526-812e9dfaf06d" name="Changes" comment="Phase 2 Complete" />
+    <list default="true" id="b051f166-4a5e-4f85-b526-812e9dfaf06d" name="Changes" comment="Phase 6 Initiated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase 6/homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Phase 6/homepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phase 6/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Phase 6/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +89,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Lenovo\PycharmProjects\streamlit_portfolio\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11 (streamlit_portfolio)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Phase 6" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Phase 6/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,7 +126,7 @@
       <workItem from="1694515576698" duration="9454000" />
       <workItem from="1694535805327" duration="635000" />
       <workItem from="1694942933709" duration="7456000" />
-      <workItem from="1694959451566" duration="13711000" />
+      <workItem from="1694959451566" duration="16522000" />
     </task>
     <task id="LOCAL-00001" summary="Phase 1 Initiated">
       <option name="closed" value="true" />
@@ -141,7 +168,47 @@
       <option name="project" value="LOCAL" />
       <updated>1695123793982</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Phase 3 Complete - Project Section">
+      <option name="closed" value="true" />
+      <created>1695123947474</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695123947474</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Phase 4 Complete - Contact Form and Styling">
+      <option name="closed" value="true" />
+      <created>1695124018081</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695124018081</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Phase 5 Complete - Navigation Bar initiated">
+      <option name="closed" value="true" />
+      <created>1695124095834</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695124095834</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added Requirement.txt">
+      <option name="closed" value="true" />
+      <created>1695124153128</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695124153128</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Phase 6 Initiated">
+      <option name="closed" value="true" />
+      <created>1695128998718</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695128998718</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +228,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Phase 1 Initiated" />
     <MESSAGE value="Phase 2 Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Phase 2 Complete" />
+    <MESSAGE value="Phase 3 Complete - Project Section" />
+    <MESSAGE value="Phase 4 Complete - Contact Form and Styling" />
+    <MESSAGE value="Phase 5 Complete - Navigation Bar initiated" />
+    <MESSAGE value="Added Requirement.txt" />
+    <MESSAGE value="Phase 6 Initiated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Phase 6 Initiated" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/streamlit_portfolio$001_homepage.coverage" NAME="001_homepage Coverage Results" MODIFIED="1695028195230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Phase 1" />
